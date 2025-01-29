@@ -6,7 +6,6 @@ setTimeout(() => {
 // Task 1: Iterating with Async/Await: Write an async function iterateWithAsyncAwait that takes an array of values and logs each value with a delay of 1 second between logs.
 
 async function iterateWithAsyncAwait(values) {
-  // No need to redefine the values array inside the function
   try {
     for (const value of values) {
     await new Promise(resolve => setTimeout(() => {
